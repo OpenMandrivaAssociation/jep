@@ -7,7 +7,7 @@ Summary:	Java Math Expression Parser
 URL:		http://sourceforge.net/projects/jep/
 Source:		http://dl.sourceforge.net/sourceforge/jep/jep-%{version}-ext-%{ext_version}-gpl.zip
 Patch0:		jep-build.patch
-BuildRequires:	java-devel java-rpmbuild ant ant-nodeps javacc3 jama
+BuildRequires:	java-devel java-rpmbuild ant ant-nodeps javacc3 jama junit
 Group:		Development/Java
 License:	GPL+
 BuildArch:	noarch
