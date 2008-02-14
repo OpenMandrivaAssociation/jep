@@ -11,6 +11,7 @@ BuildRequires:	java-devel java-rpmbuild ant ant-nodeps javacc3 jama
 Group:		Development/Java
 License:	GPL+
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{_basename}-%{version}-%{release}-buildroot
 %description
 JEP is a Java library for parsing and evaluating mathematical expressions.
 With this package you can allow your users to enter an arbitrary formula
