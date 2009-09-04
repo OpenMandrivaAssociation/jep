@@ -2,7 +2,7 @@
 
 Name:		jep
 Version:	2.4.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 Summary:	Java Math Expression Parser
 URL:		http://sourceforge.net/projects/jep/
 Source:		http://dl.sourceforge.net/sourceforge/jep/jep-%{version}-ext-%{ext_version}-gpl.zip
