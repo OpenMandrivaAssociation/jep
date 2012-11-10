@@ -1,0 +1,20 @@
+--- jep-2.4.1-ext-1.1.1-gpl/build.xml	2007-04-30 10:44:54.000000000 +0200
++++ jep-2.4.1-ext-1.1.1-gpl.n/build.xml	2008-02-13 18:03:30.000000000 +0100
+@@ -39,7 +39,7 @@
+ 	<property name="build"		value="build"/>
+ 	<property name="dist"		value="dist"/>
+ 	<property name="doc"		value="doc"/>
+-	<property name="lib"		value="lib"/>
++	<property name="lib"		value="/usr/share/java"/>
+ 	<property name="disttemp"	value="disttemp"/>
+ 	
+ 	<property name="jep-jar"	value="jep-${jep-ver}.jar"/>
+@@ -51,7 +51,7 @@
+ 	<property name="jep-ext-com-src" value="jep-${jep-ver}-ext-${ext-ver}-commercial-src"/>
+ 	<property name="jep-ext-gpl"	  value="jep-${jep-ver}-ext-${ext-ver}-gpl"/>
+ 	
+-	<property name="classpath"     value="${lib}/junit.jar;${lib}/Jama-1.0.2.jar"/>
++	<property name="classpath"     value="${lib}/junit.jar;${lib}/jama.jar"/>
+ 	<property name="bootclasspath" value="${oldjrehome}/lib/rt.jar"/>
+ 	<!-- <property name="website" value="website"/> -->
+ 
